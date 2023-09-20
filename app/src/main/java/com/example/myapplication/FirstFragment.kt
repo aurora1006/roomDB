@@ -48,8 +48,8 @@ class FirstFragment : Fragment() {
     }
 
     private fun insertDataToDatabase() {
-        val firstName = "Pedro"
-        val lastName = "Paramo"
+        val firstName = "Aurora"
+        val lastName = "Sanchez"
 
         val user = User(0,firstName,lastName)
 
