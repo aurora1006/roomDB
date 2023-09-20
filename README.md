@@ -26,7 +26,10 @@ dependencies {
 
 plugins {
     ...
+
     id 'kotlin-kapt'
+
+    ...
 }
 
 # 2. Crear entidad  User.kt
@@ -45,7 +48,7 @@ plugins {
 
 # Opcional
 
-Instalar Manejador Base de Datos <DB Browser for SQLite> 
+Instalar Manejador Base de Datos "DB Browser for SQLite"
 
 ¿Dónde se encuentra mi BD físicamente?
 
@@ -61,8 +64,8 @@ user_database-shm
 user_database-wal
 
 - Abrir manejador de Base de Datos
-1. Clic en Open Database, seleccionar archivo <user_database>
-2. Cambiar a pestaña Browser y en el menú desplegable <tabla> seleccionar <user_tabla> 
+1. Clic en Open Database, seleccionar archivo user_database
+2. Cambiar a pestaña Browser y en el menú desplegable Table seleccionar user_tabla 
 
 
 
